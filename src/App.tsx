@@ -5,10 +5,13 @@ import Top from './components/Top/Top'
 
 
 const App = () => {
+  const [page, setPage] = React.useState(1)
+ const handlePage = (pageNum: number) => setPage(pageNum) 
+
   return (
     <>
-      <Top />
-      <Main />
+      <Top pageNum={page} />
+      <Main handlePage={handlePage} />
       <Footer />
     </>
   )

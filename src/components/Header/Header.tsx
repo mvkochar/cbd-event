@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Header.css"
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <header className='header d-f'>
-        <div><img src="images/logo.svg" alt="Logo" /></div>
+        <div> <Link to='/'><img src="images/logo.svg" alt="Logo" /></Link></div>
         <div>
             <div className="header-info d-f">
                 <div className="header-contacts d-f align-center">
