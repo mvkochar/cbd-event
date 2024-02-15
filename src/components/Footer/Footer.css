@@ -1,0 +1,103 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #16392D;
+}
+
+.footer-bl-title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #979797;
+}
+
+.footer-bl-desc {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #979797;
+}
+
+.footer-bl-desc span {
+    font-style: italic;
+    color: #FDFDFD;
+}
+
+.footer-bl-download {
+    width: 240px;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FDFDFD;
+    border: 1px solid #DA9D27;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    color: #A76E00;
+}
+
+.footer-bl-list {
+    list-style-type: none;
+}
+
+.footer-bl-list li {
+    margin-bottom: 4px;
+    line-height: 1.4;
+}
+
+.footer-bl-list:last-child {
+    margin-bottom: 0;
+}
+
+.footer-bl-list li a {
+    font-size: 16px;
+    color: #979797;
+}
+
+.footer-bl-list li a:hover {
+    color: #DA9D27;
+}
+
+.footer-bl-email {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #FDFDFD;
+} 
+
+.footer-socilal {
+    margin-top: 12px;
+    gap: 8px;
+}
+
+.footer-bar {
+    margin-top: 128px;
+}
+
+.footer-nav {
+    list-style-type: none;
+    gap: 8px;
+}
+
+.footer-nav-item {
+    padding: 4px 8px;
+    border-right: 2px solid #979797;
+}
+
+.footer-nav-item a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #979797;
+}
+
+.footer-nav-item a:hover {
+    color: #DA9D27;
+}
+
+.footer-redesign {
+    padding: 4px 8px;
+    font-weight: 500;
+    font-size: 28px;
+    color: #979797;
+}
