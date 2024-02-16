@@ -25,7 +25,7 @@ const Top = ({ pageNum = 1 }: TopProps) => {
             case 1:
                 return "475px"
             case 2:
-                return "297px"    
+                return "265px"    
         }
     }
 
