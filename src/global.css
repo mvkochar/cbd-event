@@ -1,0 +1,60 @@
+.home-about-title,
+.home-protocol-title,
+.home-design-title,
+.home-services-title,
+.home-thematic-title,
+.home-video-title,
+.home-news-title,
+.about-features-title,
+.about-place-title,
+.about-solutions-title,
+.about-services-title,
+.about-team-title,
+.about-connect-title,
+.about-reviews-title {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-size: 56px;
+    color: #A76E00;
+}
+
+.home-about-more,
+.home-design-more,
+.home-thematic-more,
+.home-news-know,
+.about-features-more,
+.team-item-more,
+.about-reviews-more {
+    display: block;
+    width: 240px;
+    margin-top: 32px;
+    margin-left: 435px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid #FDFDFD;
+    border-bottom: 1px solid #3D3C39;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    color: #04867E;
+}
+
+.home-services-know,
+.home-video-khow,
+.about-connect-know {
+    display: block;
+    width: 240px;
+    margin: 24px auto;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FDFDFD;
+    border: 1px solid #3D3C39;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    color: #04867E;
+}

@@ -116,7 +116,7 @@
     display: block;
     font-family: "Montserrat", sans-serif;
     font-size: 56px;
-    color: #A76E00;   
+    color: #A76E00;
 }
 
 .about-place-item:nth-child(2) {
@@ -173,4 +173,212 @@
 
 .about-solutions-list li:last-child {
     margin-bottom: 0;
+}
+
+.about-services {
+    padding-top: 100px;
+    padding-bottom: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: url('/public/images/about-services-bg.png') no-repeat;
+}
+
+.about-services-title {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    color: #F8F1E9;
+}
+
+.about-services-title::before {
+    content: '';
+    display: block;
+    width: 896px;
+    height: 2px;
+    background-color: #F8F1E9;
+}
+
+.about-services-box {
+    margin-top: 24px;
+    flex-wrap: wrap;
+    row-gap: 29px;
+    column-gap: 42px;
+}
+
+.about-services-item {
+    width: 424px;
+    height: 280px;
+    padding-top: 16px;
+    padding-left: 4px;
+    background-color: #FDFDFD;
+    border: 1px solid #F8F1E9;
+    border-radius: 8px;
+}
+
+.about-services .services-item__first {
+    padding-left: 12.5px;
+    height: 272px;
+}
+
+.about-services-item .services-item-title {
+    font-weight: 500;
+    font-size: 28px;
+    color: #DA9D27;
+}
+
+.about-services-item .services-item-list {
+    list-style-type: none;
+    margin-top: 24px;
+}
+
+.about-services-item .services-item-list li {
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #3D3C39
+}
+
+.about-services-item .services-item-list li:last-child {
+    margin-bottom: 0;
+}
+
+.about-team {
+    padding-top: 100px;
+    padding-bottom: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FDFDFD;
+}
+
+.about-team-title {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.about-team-title::after {
+    content: '';
+    display: block;
+    width: 847px;
+    height: 2px;
+    background-color: #A76E00;
+}
+
+.about-team-box {
+    margin-top: 32px;
+}
+
+.about-team-item .team-item-img {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.about-team-item .team-item-info {
+    width: 338px;
+    height: 318px;
+    margin-top: -56px;
+    padding-top: 74px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #3D3C39;
+    border-radius: 16px;
+}
+
+.about-team-item .team-item-desc {
+    font-size: 20px;
+    color: #3D3C39;
+}
+
+.about-team-item .team-item-more {
+    margin: 16px auto;
+    margin-bottom: 0;
+}
+
+.about-team-item .team-item-name,
+.about-team-item .team-item-pos {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #3E1063;
+}
+
+.about-team-item .team-item-name {
+    margin-top: 16px;
+}
+
+.about-team-item .team-item-pos {
+    margin-top: 4px;
+}
+
+.about-connect {
+    margin-top: 70px;
+    padding-top: 100px;
+    padding-bottom: 156px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: url('/public/images/about-connect-bg.png') no-repeat;
+}
+
+.about-connect-title {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #F8F1E9;
+}
+
+.about-connect-title::before {
+    content: "";
+    display: block;
+    width: 319px;
+    height: 2px;
+    background-color: #F8F1E9;
+}
+
+.about-connect-desc {
+    margin-top: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    text-align: right;
+    color: #3E1063;
+}
+
+.about-connect-khow {
+    margin: 32px auto;
+    margin-bottom: 0;
+}
+
+.about-reviews {
+    margin-top: -100px;
+    padding-bottom: 200px;
+    padding-left: 40px;
+    padding-right: 43px;
+    background-color: #FDFDFD;
+}
+
+.about-reviews-title {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.about-reviews-item {
+    gap: 48px;
+    align-items: flex-end;
+}
+
+.about-reviews-item:nth-child(3) {
+    margin-top: 20px;
+    margin-left: 457px;
+}
+
+.about-reviews-item .reviews-item-desc {
+    max-width: 732px;
+    font-size: 20px;
+    color: #3D3C39;
+}
+
+.about-reviews-item .reviews-item-author {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #3E1063;
 }
