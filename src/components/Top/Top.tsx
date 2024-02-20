@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Header/Header'
 import './Top.css'
+import { title } from 'process'
 
 type TopProps = {
     pageNum?: number
@@ -16,7 +17,9 @@ const Top = ({ pageNum = 1 }: TopProps) => {
             case 1:
                 return "844px"
             case 2:
-                return "555px"    
+                return "555px" 
+            case 3:
+                return "549px"       
         }
     }
 
@@ -25,7 +28,9 @@ const Top = ({ pageNum = 1 }: TopProps) => {
             case 1:
                 return "475px"
             case 2:
-                return "265px"    
+                return "265px" 
+            case 3:
+                return "0"       
         }
     }
 
@@ -52,6 +57,8 @@ const Top = ({ pageNum = 1 }: TopProps) => {
                                     Найкращий організатор у плануванні та проведенні різноманітних подій.
                                 </h3>
                             </>
+                            : pageNum === 3 ?
+                            <h1 className="cbd-main-title" style={{textAlign: 'center'}}>Сервіси</h1>
                             :
                             null
                 }

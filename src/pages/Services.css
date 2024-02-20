@@ -1,0 +1,212 @@
+.services-features {
+    padding-top: 108px;
+    padding-bottom: 49px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FDFDFD;
+}
+
+.services-features-title {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.services-features-title::after {
+    content: '';
+    display: block;
+    width: 547px;
+    height: 2px;
+    background-color: #A76E00;
+}
+
+.services-features-content {
+    margin-top: 52px;
+}
+
+.services-features-desc {
+    max-width: 585px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #3D3C39;
+}
+
+.services-features-desc:last-child {
+    margin-bottom: 0;
+}
+
+.services-features-actions {
+    margin-top: 32px;
+}
+
+.services-features-download {
+    width: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FDFDFD;
+    border: 1px solid #DA9D27;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    color: #A76E00;
+}
+
+.services-features-more {
+    margin: 0;
+}
+
+.services-opportunities {
+    padding-top: 100px;
+    padding-bottom: 69px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: url("/public/images/services-opportunities-bg.png") no-repeat;
+}
+
+.services-opportunities-title {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #F8F1E9;
+}
+
+.services-opportunities-title::before {
+    content: '';
+    display: block;
+    width: 563px;
+    height: 2px;
+    background-color: #F8F1E9;
+}
+
+.services-opportunities-desc {
+    margin-top: 16px;
+    font-size: 20px;
+    text-align: right;
+    color: #3D3C39;
+}
+
+.services-selection {
+    padding-top: 108px;
+    padding-bottom: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #FDFDFD url("/public/images/services-selection-bg.png") no-repeat;
+}
+
+.services-selection-title {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.services-selection-title::after {
+    content: '';
+    display: block;
+    width: 876px;
+    height: 2px;
+    background-color: #A76E00;
+}
+
+.services-selection-box {
+    margin-top: 48px;
+    flex-wrap: wrap;
+}
+
+.services-selection-item {
+    width: 380px;
+    height: 320px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 10px;
+    background-color: #F8F1E9;
+    border-radius: 8px;
+}
+
+.services-selection-item:nth-child(2) {
+    margin-top: 72px;
+    padding-left: 16px;
+    padding-right: 20px;
+}
+
+.services-selection-item:nth-child(3) {
+    padding-left: 16px;
+    padding-right: 4px;
+}
+
+.services-selection-item:nth-child(5),
+.services-selection-item:nth-child(8) {
+    margin-top: 120px;
+}
+
+.services-selection-item .selection-item-title {
+    font-weight: 500;
+    font-size: 28px;
+    color: #A76E00;
+}
+
+.services-selection-item .selection-item-desc {
+    margin-top: 24px;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #3D3C39;
+}
+
+.services-reviews {
+    padding-top: 108px;
+    padding-bottom: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: url("/public/images/services-reviews-bg.png") no-repeat;
+}
+
+.services-reviews-title {
+    margin-bottom: 24px;
+    text-align: center;
+    color: #F8F1E9;
+}
+
+.services-reviews-item {
+    max-width: 886px;
+    gap: 48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 6px;
+    background-color: #F8F1E9;
+    border-radius: 8px;
+}
+
+.services-reviews-item:nth-child(3){
+    margin-top: 12px;
+    margin-left: 474px;
+}
+
+.services-reviews-item .reviews-item-desc {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #3D3C39;
+}
+
+.services-reviews-item .reviews-item-author {
+    font-weight: 700;
+    font-size: 18px;
+    color: #3E1063;
+}
+
+.services-reviews-more {
+    display: block;
+    width: 240px;
+    margin-top: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FDFDFD;
+    border: 1px solid #3D3C39;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    color: #04867E;
+}
+

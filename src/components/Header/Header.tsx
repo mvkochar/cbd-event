@@ -23,7 +23,7 @@ const Header = () => {
                 <nav>
                     <ul className="header-nav d-f align-center">
                         <li className="header-nav-item"><Link to="about">Про нас</Link></li>
-                        <li className="header-nav-item"><a href="">Сервіси</a></li>
+                        <li className="header-nav-item"><Link to="services">Сервіси</Link></li>
                         <li className="header-nav-item"><a href="">Портфоліо</a></li>
                         <li className="header-nav-item"><a href="">Клієнти</a></li>
                         <li className="header-nav-item"><a href="">Магазин</a></li>

@@ -11,7 +11,11 @@
 .about-services-title,
 .about-team-title,
 .about-connect-title,
-.about-reviews-title {
+.about-reviews-title,
+.services-features-title,
+.services-opportunities-title,
+.services-selection-title,
+.services-reviews-title {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 500;
     font-size: 56px;
@@ -24,7 +28,9 @@
 .home-news-know,
 .about-features-more,
 .team-item-more,
-.about-reviews-more {
+.about-reviews-more,
+.services-features-more
+ {
     display: block;
     width: 240px;
     margin-top: 32px;
