@@ -15,7 +15,9 @@
 .services-features-title,
 .services-opportunities-title,
 .services-selection-title,
-.services-reviews-title {
+.services-reviews-title,
+.services-standarts-title,
+.tariffs-item-title {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 500;
     font-size: 56px;
@@ -29,8 +31,8 @@
 .about-features-more,
 .team-item-more,
 .about-reviews-more,
-.services-features-more
- {
+.services-features-more,
+.services-standarts-more {
     display: block;
     width: 240px;
     margin-top: 32px;

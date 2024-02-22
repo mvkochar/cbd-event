@@ -9,7 +9,7 @@ type ServicesProps = {
 const Services = ({ handlePage }: ServicesProps) => {
     React.useEffect(() => {
         handlePage(3)
-    }, []);
+    }, [handlePage]);
 
     return (
         <main>
@@ -133,6 +133,67 @@ const Services = ({ handlePage }: ServicesProps) => {
                     <div><img src="images/review-author1.png" alt="reviews-author1" /></div>
                 </div>
                 <button type='button' className="services-reviews-more">Детальніше</button>
+            </div>
+            <div className="services-standards">
+                <h2 className="services-standarts-title">Стандарти логістики</h2>
+                <p className="services-standarts-desc">
+                    Найважливішим аспектом планування заходів є зв’язки та передбачення подій в останню хвилину.
+                </p>
+                <button type='button' className='services-standarts-more'>Детальніше</button>
+            </div>
+            <div className="services-tariffs d-f jc-sb">
+                <div className="services-tariffs-item d-f jc-sb">
+                    <h2 className="tariffs-item-title">Базовий</h2>
+                    <h3 className="tariffs-item-price">$5,000</h3>
+                    <h3 className="tariffs-item-guests">до 100 гостей</h3>
+                    <ul className="tariffs-item-list">
+                        <li>Переговори щодо місця проведення</li>
+                        <li>Попередня реєстрація</li>
+                        <li>Список гостей</li>
+                        <li>Подія</li>
+                        <li>Дизайн запрошень</li>
+                        <li>Реєстрація на місці</li>
+                    </ul>
+                    <button type='button' className='tariffs-item-buy'>Buy Now</button>
+                </div>
+                <div className="services-tariffs-item d-f jc-sb">
+                    <h2 className="tariffs-item-title">Делюкс</h2>
+                    <h3 className="tariffs-item-price">$5,500 - 10,000</h3>
+                    <h3 className="tariffs-item-guests">100-200 гостей</h3>
+                    <ul className="tariffs-item-list">
+                        <li>Управління логістикою</li>
+                        <li>Переговори щодо місця проведення</li>
+                        <li>Дизайн запрошень</li>
+                        <li>Реєстрація на місці</li>
+                    </ul>
+                    <button type='button' className='tariffs-item-buy'>Buy Now</button>
+                </div>
+                <div className="services-tariffs-item d-f jc-sb">
+                    <h2 className="tariffs-item-title">Преміум</h2>
+                    <h3 className="tariffs-item-price">$10,000+</h3>
+                    <h3 className="tariffs-item-guests">100-200 гостей</h3>
+                    <ul className="tariffs-item-list">
+                        <li>Відданий старший <br/> менеджер з роботи з клієнтами</li>
+                        <li>Переговори щодо місця проведення</li>
+                        <li>Преміум-запрошення</li>
+                        <li>Розширена реєстрація <br /> на місці</li>
+                    </ul>
+                    <button type='button' className='tariffs-item-buy'>Buy Now</button>
+                </div>
+                <div className="services-tariffs-item d-f jc-sb">
+                    <h2 className="tariffs-item-title">PRO</h2>
+                    <h3 className="tariffs-item-price">Індивідуально</h3>
+                    <ul className="tariffs-item-list">
+                        <li>Веб-сайт події</li>
+                        <li>Переговори щодо місця проведення</li>
+                        <li>Старший організатор заходів</li>
+                        <li>Преміальні запрошення</li>
+                        <li>Розширена реєстрація</li>
+                        <li>Підтримка в чаті</li>
+                        <li>Персонал реєстрації на місці</li>
+                    </ul>
+                    <button type='button' className='tariffs-item-buy'>Buy Now</button>
+                </div>
             </div>
         </main>
     )
