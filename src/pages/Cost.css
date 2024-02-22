@@ -1,0 +1,74 @@
+.cost-wr {
+    padding-top: 108px;
+    padding-bottom: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cost-note {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #16392D;
+}
+
+.cost-fm {
+    margin-top: 32px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cost-fm .input-bl {
+    gap: 82px;
+}
+
+.cost-fm label {
+    display: block;
+    width: 268px;
+    font-weight: 500;
+    font-size: 28px;
+    color: #16392D;
+}
+
+.cost-fm input {
+    display: block;
+    width: 324px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    padding-left: 8px;
+    border: 1px solid #3D3C39;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    color: #979797;
+}
+
+.cost-fm input::placeholder {
+    color: #979797;
+}
+
+.cost-fm textarea {
+    display: block;
+    width: 324px;
+    height: 120px;
+    padding-top: 12px;
+    padding-left: 8px;
+    border: 1px solid #3D3C39;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    color: #979797;
+}
+
+.input-bl-subject input {
+    padding-left: 38.5px;
+    color: #DA9D27;
+}
+
+.input-bl-subject input::placeholder {
+    color: #DA9D27; 
+}
+
+.cost-fm textarea::placeholder {
+    color: #979797;
+}

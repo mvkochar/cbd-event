@@ -18,7 +18,8 @@
 .services-reviews-title,
 .services-standarts-title,
 .tariffs-item-title,
-.portfolio-video-title {
+.portfolio-video-title,
+.cost-title {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 500;
     font-size: 56px;

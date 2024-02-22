@@ -28,7 +28,7 @@ const Header = () => {
                         <li className="header-nav-item"><a href="">Клієнти</a></li>
                         <li className="header-nav-item"><a href="">Магазин</a></li>
                         <li className="header-nav-item"><a href="">Контакти</a></li>
-                        <li className="header-nav-item"><a href="">Вартість</a></li>
+                        <li className="header-nav-item"><Link to="cost">Вартість</Link></li>
                         <li className="header-nav-item"><a href="">Події</a></li>
                     </ul>
                 </nav>
@@ -36,7 +36,7 @@ const Header = () => {
                     <input type="text" name='searchQuery' placeholder='Пошук' />
                     <button type='button'><img src="images/search.svg" alt="Search" /></button>
                 </form>
-
+                    
             </div>
         </div>
     </header>
