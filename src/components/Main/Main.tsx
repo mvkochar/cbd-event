@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { About, Home, Services } from '../../pages'
+import { About, Home, Portfolio, Services } from '../../pages'
 
 type MainProps = {
   handlePage: (pageNum: number) => void
@@ -20,6 +20,10 @@ const Main = ({handlePage}: MainProps) => {
       <Route
         path='services'
         element={<Services handlePage={handlePage}/>}
+      />
+      <Route 
+        path='portfolio'
+        element={<Portfolio handlePage={handlePage}/>}
       />
     </Routes>
   )

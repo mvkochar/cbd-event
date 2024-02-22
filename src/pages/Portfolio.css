@@ -1,0 +1,23 @@
+.portfolio-video {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: #FDFDFD;
+}
+
+.portfolio-video-title {
+    text-align: center;
+}
+
+.portfolio-video-desc {
+    max-width: 1136px;
+    margin: 32px auto;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #3D3C39;
+}
+
+.portfolio-video-more {
+    margin: 40px auto;
+    margin-bottom: 0;
+}

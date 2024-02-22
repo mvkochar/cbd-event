@@ -19,7 +19,9 @@ const Top = ({ pageNum = 1 }: TopProps) => {
             case 2:
                 return "555px" 
             case 3:
-                return "549px"       
+                return "549px"  
+            case 4:
+                return "551px"         
         }
     }
 
@@ -30,7 +32,9 @@ const Top = ({ pageNum = 1 }: TopProps) => {
             case 2:
                 return "265px" 
             case 3:
-                return "0"       
+                return "0"
+            case 4:
+                return "0"           
         }
     }
 
@@ -59,6 +63,8 @@ const Top = ({ pageNum = 1 }: TopProps) => {
                             </>
                             : pageNum === 3 ?
                             <h1 className="cbd-main-title" style={{textAlign: 'center'}}>Сервіси</h1>
+                            : pageNum === 4 ?
+                            <h1 className="cbd-main-title" style={{textAlign: 'center'}}>Портфоліо подій (можливості)</h1>
                             :
                             null
                 }

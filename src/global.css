@@ -17,7 +17,8 @@
 .services-selection-title,
 .services-reviews-title,
 .services-standarts-title,
-.tariffs-item-title {
+.tariffs-item-title,
+.portfolio-video-title {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 500;
     font-size: 56px;
@@ -32,7 +33,8 @@
 .team-item-more,
 .about-reviews-more,
 .services-features-more,
-.services-standarts-more {
+.services-standarts-more,
+.portfolio-video-more {
     display: block;
     width: 240px;
     margin-top: 32px;
