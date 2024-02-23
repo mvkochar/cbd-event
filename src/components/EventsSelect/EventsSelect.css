@@ -1,0 +1,26 @@
+.events-select-wr {
+    width: 268px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #3D3C39;
+}
+
+.events-select-wr .events-select-title {
+    font-size: 16px;
+    color: #3D3C39;
+}
+
+.events-select-wr .square-wr {
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    border: 1px solid #979797;
+}
+
+.events-select-wr .square-inner {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #3D3C39;
+}
