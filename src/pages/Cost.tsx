@@ -128,44 +128,56 @@ const Cost = ({ handlePage }: CostProps) => {
                         <div>
                             <h3 className='events-select-title'>Вимоги до логістики*</h3>
                             <div className="events-select-box d-f">
-                                <EventsSelect title='Аудіовізуал'/>
-                                <EventsSelect title='Реєстраційний штат'/>
-                                <EventsSelect title='Звук'/>
-                                <EventsSelect title='Фотозйомка'/>
-                                <EventsSelect title='Відеозйомка'/>
-                                <EventsSelect title='Послуги планування'/>
-                                <EventsSelect title='Освітлення заходів (Кольорове освітлення)'/>
-                                <EventsSelect title='Мені не потрібні жодні з цих послуг'/>
+                                <EventsSelect title='Аудіовізуал' />
+                                <EventsSelect title='Реєстраційний штат' />
+                                <EventsSelect title='Звук' />
+                                <EventsSelect title='Фотозйомка' />
+                                <EventsSelect title='Відеозйомка' />
+                                <EventsSelect title='Послуги планування' />
+                                <EventsSelect title='Освітлення заходів (Кольорове освітлення)' />
+                                <EventsSelect title='Мені не потрібні жодні з цих послуг' />
                             </div>
                         </div>
                         <div>
                             <h3 className='events-select-title'>Необхідне обладнання*</h3>
                             <div className="events-select-box d-f">
-                                <EventsSelect title='Ноутбук'/>
-                                <EventsSelect title='Подіум'/>
-                                <EventsSelect title='Доступ в інтернет'/>
-                                <EventsSelect title='Проекційний екран'/>
-                                <EventsSelect title='Запис відео'/>
-                                <EventsSelect title='Проектор'/>
-                                <EventsSelect title='Мікрофон'/>
-                                <EventsSelect title='Сцена'/>
-                                <EventsSelect title='Накладні мікрофони'/>
-                                <EventsSelect title='Нічого не потрібно'/>
+                                <EventsSelect title='Ноутбук' />
+                                <EventsSelect title='Подіум' />
+                                <EventsSelect title='Доступ в інтернет' />
+                                <EventsSelect title='Проекційний екран' />
+                                <EventsSelect title='Запис відео' />
+                                <EventsSelect title='Проектор' />
+                                <EventsSelect title='Мікрофон' />
+                                <EventsSelect title='Сцена' />
+                                <EventsSelect title='Накладні мікрофони' />
+                                <EventsSelect title='Нічого не потрібно' />
                             </div>
                         </div>
                         <div>
                             <h3 className='events-select-title'>Елементи підтримки реєстрації*</h3>
                             <div className="events-select-box d-f">
-                                <EventsSelect title='Власники значків'/>
-                                <EventsSelect title='Вивіски'/>
-                                <EventsSelect title='Шнурки'/>
-                                <EventsSelect title='Брошури'/>
-                                <EventsSelect title='Роздатковий матеріал'/>
-                                <EventsSelect title='Нічого не потрібно'/>
-                                <EventsSelect title='Плакати'/>
+                                <EventsSelect title='Власники значків' />
+                                <EventsSelect title='Вивіски' />
+                                <EventsSelect title='Шнурки' />
+                                <EventsSelect title='Брошури' />
+                                <EventsSelect title='Роздатковий матеріал' />
+                                <EventsSelect title='Нічого не потрібно' />
+                                <EventsSelect title='Плакати' />
                             </div>
                         </div>
                     </div>
+                    <form action="" className="events-select-fm">
+                        <p className="select-fm-note">
+                            Будь ласка, надайте нам будь-яку додаткову інформацію про вашу подію
+                            чи потреби в управлінні місцем призначення.
+                        </p>
+                        <textarea name="addedInfo" id="addedInfo"></textarea>
+                        <div className="captcha-wr d-f align-center">
+                            <div className="captcha-content"><img src="images/captcha.png" alt="captcha" /></div>
+                            <label htmlFor="captchaInput">Введіть код:*</label>
+                            <input type="text" name='captchaInput' id='captchaInput' />
+                        </div>
+                    </form>
                 </div>
             </div>
         </main>

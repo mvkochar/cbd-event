@@ -19,17 +19,13 @@ const Header = () => {
                 </div>
                 <button className='header-login-btn'>Логін | Зареєструватися</button>
             </div>
-            <div className="header-bar d-f">
+            <div className="header-bar d-f jc-sb">
                 <nav>
                     <ul className="header-nav d-f align-center">
                         <li className="header-nav-item"><Link to="about">Про нас</Link></li>
                         <li className="header-nav-item"><Link to="services">Сервіси</Link></li>
                         <li className="header-nav-item"><Link to="portfolio">Портфоліо</Link></li>
-                        <li className="header-nav-item"><a href="">Клієнти</a></li>
-                        <li className="header-nav-item"><a href="">Магазин</a></li>
-                        <li className="header-nav-item"><a href="">Контакти</a></li>
                         <li className="header-nav-item"><Link to="cost">Вартість</Link></li>
-                        <li className="header-nav-item"><a href="">Події</a></li>
                     </ul>
                 </nav>
                 <form action="" className="header-form-search d-f align-center">

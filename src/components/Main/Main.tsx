@@ -4,30 +4,31 @@ import { About, Cost, Home, Portfolio, Services } from '../../pages'
 
 type MainProps = {
   handlePage: (pageNum: number) => void
-} 
+}
 
-const Main = ({handlePage}: MainProps) => {
+const Main = ({ handlePage }: MainProps) => {
   return (
     <Routes>
       <Route
         path='/'
-        element={<Home handlePage={handlePage}/>} 
+        element={<Home handlePage={handlePage} />}
       />
-      <Route 
+      <Route
         path='about'
         element={<About handlePage={handlePage} />}
       />
       <Route
         path='services'
-        element={<Services handlePage={handlePage}/>}
+        element={<Services handlePage={handlePage} />}
       />
-      <Route 
+      <Route
         path='portfolio'
-        element={<Portfolio handlePage={handlePage}/>}
+        element={<Portfolio handlePage={handlePage} />}
       />
       <Route
         path='cost'
         element={<Cost handlePage={handlePage} />}
+        errorElement={<h4>Page not exist</h4>}
       />
     </Routes>
   )
